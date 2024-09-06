@@ -137,6 +137,10 @@ Caixas que aparecem sobre uma página na internet com imagens, links e outras p�
 ## Exercício Final: mais termos da internet
 
 ### streaming
+- Transmissão em tempo real de conteúdo de áudio ou vídeo pela internet sem a necessidade de download
+
 ### hotspot
+- Ponto de acesso sem fio que fornece conexão à internet para dispositivos usando Wi-Fi, geralmente por meio de dados móveis.
+
 ### videocall
-### 
+- Sessão de comunicação em que os participantes usam vídeo e áudio ao vivo para interagir em tempo real pela internet.
