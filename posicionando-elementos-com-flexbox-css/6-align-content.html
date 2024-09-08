@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade - align-content</title>
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            margin: 10px auto;
+            border: 3px solid black;
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .item {
+            background-color: orangered;
+            padding: 5px;
+            margin: 3px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .around {
+            align-content: space-around;
+        }
+
+        .between {
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <h2> stretch </h2>
+    <div class="container stretch">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+
+    <h2> center </h2>
+    <div class="container center">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+
+    <h2> flex-start </h2>
+    <div class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+
+    <h2> flex-end </h2>
+    <div class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+
+    <h2> space-around </h2>
+    <div class="container around">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+
+    <h2> space-between </h2>
+    <div class="container between">
+        <div class="item">1</div>
+        <div class="item">Lorem Ipsum has e 1500s </div>
+        <div class="item">Where can I get some?</div>
+        <div class="item">"de Finibus Bonorum et Malorum"</div>
+        <div class="item">"Lorem ipsum dolor sit amet</div>
+        <div class="item">cachorro quente 1 real</div>
+        <div class="item">But I must explain to you how all this mistaken idea </div>
+    </div>
+</body>
+</html>

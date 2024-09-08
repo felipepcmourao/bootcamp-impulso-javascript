@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex grow</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid black;
+            max-width: 300px;
+            margin: 10px auto;
+        }
+        .item {
+            background-color: rgb(5, 71, 117);
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .grow0 {
+            flex-grow: 0;
+        }
+
+
+        .grow1 {
+            flex-grow: 1;
+        }
+
+
+        .grow2 {
+            flex-grow: 2;
+        }
+
+        .grow3 {
+            flex-grow: 3;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>flex-grow: 0</h1>
+    <div class="container">
+        <div class="item grow0">1</div>
+        <div class="item grow0">2</div>
+        <div class="item grow0">3</div>
+        <div class="item grow0">4</div>
+    </div>
+
+    <h1>flex-grow: 1</h1>
+    <div class="container">
+        <div class="item grow1">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow1">3</div>
+        <div class="item grow1">4</div>
+    </div>
+
+    <h1>flex-grow: variado</h1>
+    <div class="container">
+        <div class="item grow0">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow2">3</div>
+        <div class="item grow3">4</div>
+    </div>
+</body>
+</html>

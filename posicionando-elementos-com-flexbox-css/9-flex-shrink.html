@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex shrink</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid black;
+            max-width: 350px;
+        }
+
+        .item {
+            background-color: darkgreen;
+            margin: 5px;
+            font-size: 24px;
+            text-align: center;
+            color: white;
+        }
+
+        .s0 {
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+
+        .s1 {
+            flex-shrink: 1;
+        }
+
+        .g1 {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> flex-shrink: 1;</h1>
+    <div class="container">
+        <div class="item s1 g1">A</div>
+        <div class="item s1 g1">B</div>
+        <div class="item s1 g1">C</div>
+        <div class="item s1 g1">D</div>
+        <div class="item s1 g1">E</div>
+    </div>
+
+   <h1> flex-shrink: 1;</h1>
+    <div class="container">
+        <div class="item s1 g1">A</div>
+        <div class="item s1 g1">losdakjdsa dadajia dadsasdasd</div>
+        <div class="item s1 g1">C</div>
+        <div class="item s1 g1">D</div>
+        <div class="item s1 g1">E</div>
+    </div>
+
+    <h1> flex-shrink: 0 / flex-basis: 100px</h1>
+    <div class="container">
+        <div class="item s0 g1">A</div>
+        <div class="item s0 g1">the generated</div>
+        <div class="item s0 g1">C</div>
+        <div class="item s0 g1">D</div>
+        <div class="item s0 g1">E</div>
+    </div>
+</body>
+</html>
