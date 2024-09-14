@@ -3,6 +3,7 @@
 # Aulas
 - Introdução a Programação e Pensamento Computacional
 - Primeiros Passos para Desenvolvimento Web 
+- Posicionando elementos com Flex Box em CSS
 
 
 ## Links Úteis
